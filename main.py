@@ -10,7 +10,7 @@ with open('columns.json', 'r') as f:
 
 #set the title of the page
 st.set_page_config(page_title='My Web', layout='wide')
-st.image("banner.jpg", width=100, use_column_width=True)
+st.image("banner.jpg", use_column_width=True)
 st.title('Welcome to My Web.')
 
 selected_location= st.selectbox(
